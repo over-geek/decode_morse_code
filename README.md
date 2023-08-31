@@ -11,6 +11,7 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
   - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -67,31 +68,20 @@ First clone this repository to your desired folder:
   git clone https://github.com/over-geek/decode_morse_code.git
   cd decode_morse_code
 ```
+### Install
+
+Install this project with:
+```sh
+  bundle install
+```
 
 ### Usage
 
-In the command line, execute the following commands one by one in the same order as below:
-
-Note: On all commands, you must replace the `username` with your database's username and `path/to/the/project-folder/` with the path to the project folder in your local environment.
+To run the project, execute the following command:
 
 ```sh
-  psql -U username -d vet_clinic -f path/to/the/project-folder/schema.sql;
+  ruby morsedecoder.rb
 ```
-
-Running the above command will create a table named **animals** within it.
-
-```sh
-  psql -U username -d vet_clinic -f path/to/the/project-folder/data.sql
-```
-
-Running the above command will insert four new records into the animals table.
-
-```sh
-  psql -U username -d vet_clinic -f path/to/the/project-folder/queries.sql
-```
-
-When executing the above command, a series of queries will be made to the animals table.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -116,7 +106,7 @@ When executing the above command, a series of queries will be made to the animal
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Database Schema Diagram
+- N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
